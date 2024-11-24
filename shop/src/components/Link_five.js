@@ -12,9 +12,9 @@ function Link_five(props) {
             alt="photo"
             className="photo"
           ></img>
-          <button className="btn" id="velo">Інформація</button>
-          
-          <p>props.</p>
+          <button className="btn" id="velo">
+            Інформація
+          </button>
         </li>
         <li>
           <h3 className="title-content">Плаття</h3>

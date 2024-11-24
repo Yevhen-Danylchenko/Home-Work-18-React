@@ -98,19 +98,4 @@ function App() {
   );
 }
 
-function ButtonOnClick(props) {
-
-  return (
-    <div>
-    <p>Назва: {props.name}</p>
-    <p>Опис: {props.description}</p>
-    <p>Ціна: {props.price}</p>
-  </div>
-  );
-}
-
-const root = React.createRoot(document.getElementById('velo'));
-const element = <ButtonOnClick name="Вело" />;
-root.render(element);
-
 export default App;
